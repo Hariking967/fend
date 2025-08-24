@@ -11,7 +11,7 @@ type Todo = {
   createdAt: string;
 };
 
-const API = "http://localhost:5000/api/todos";
+const API = "https://bend-nluj.onrender.com/api/todos";
 
 export default function Home() {
   const [search, setSearch] = useState("");
